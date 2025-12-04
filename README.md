@@ -27,14 +27,18 @@ Includes products, authentication, cart, checkout, and deployment.
 
 ## ✨ Features
 
-| Feature | Status |
-|--------|:-----:|
-| Product list & product details | ✔ Done |
-| Add to cart | 🔜 |
-| User signup/login (JWT Auth) | 🔜 |
-| Checkout & order save | 🔜 |
-| Responsive UI polish | 🔜 |
-| Deployment | 🔜 |
+### Completed:
+- Day 1: Project Setup
+  - React App setup with routing
+  - Node + Express backend
+  - MongoDB connection
+  - GitHub repository
+
+- Day 2: Products Backend
+  - Product Model (Mongoose)
+  - REST API for Products
+  - Seeder script with sample product data
+  - Products showing from MongoDB
 
 ---
 
