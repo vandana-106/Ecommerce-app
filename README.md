@@ -38,8 +38,13 @@ Includes products, authentication, cart, checkout, and deployment.
   - Product Model (Mongoose)
   - REST API for Products
   - Seeder script with sample product data
-  - Products showing from MongoDB
+  - Testing Product APIs
 
+- **Day 3: Products UI**
+  - Fetch products from backend using Axios
+  - Home page displaying product cards
+  - Product details page using route params
+  - Local images stored in `/public/images`
 ---
 
 ## 📦 Installation & Setup
