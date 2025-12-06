@@ -46,6 +46,13 @@ Includes products, authentication, cart, checkout, and deployment.
   - Product details page using route params
   - Local images stored in `/public/images`
 ---
+- **Day 4: Cart System**
+  - Add “Add to Cart” button
+  - Cart stored in Context/Redux/localStorage
+  - Cart page
+  - Update quantity
+  - Remove item
+  - Show total cost
 
 ## 📦 Installation & Setup
 
