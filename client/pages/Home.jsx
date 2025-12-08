@@ -15,6 +15,7 @@ const Home = () => {
   }, []);
   return (
     <div style={{ padding: "20px" }}>
+      
       <h2>Products</h2>
       <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
         {products.map((product) => (
@@ -38,6 +39,7 @@ const Home = () => {
         <Link to={"/cart"}> go to cart</Link>
       </button>
       <a href="/cart">🛒 Cart ({cart.length})</a>
+      
     </div>
   );
 };
