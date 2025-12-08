@@ -54,6 +54,14 @@ Includes products, authentication, cart, checkout, and deployment.
   - Remove item
   - Show total cost
 
+**Day 5: User Authentication**
+  - Added User model with hashed password (bcrypt)
+  - Implemented register and login APIs with JWT tokens
+  - Created AuthContext for global user & token state
+  - Login and Register pages in frontend
+  - Persisted auth state using localStorage
+  - Basic Login / Logout UI in header
+
 ## 📦 Installation & Setup
 
 Clone the project
