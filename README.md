@@ -62,6 +62,13 @@ Includes products, authentication, cart, checkout, and deployment.
   - Persisted auth state using localStorage
   - Basic Login / Logout UI in header
 
+**Day 6: Orders & Checkout**
+- Added Order model
+- Created protected order API using JWT authentication
+- Implemented Checkout page (total & place order)
+- Clear cart after successful order
+- Protect checkout route (login required)
+
 ## 📦 Installation & Setup
 
 Clone the project
