@@ -1,10 +1,11 @@
 import React from "react";
 import { useContext } from "react";
-import { CartContext } from "../Context/CartContext.jsx";
+import { CartContext } from "../context/CartContext.jsx";
+import {  useNavigate } from "react-router-dom";
 
 const CartPage = () => {
-  const { cart, removeFromCart, addToCart, increaseQty, decreaseQty } =
-    useContext(CartContext);
+  const { cart, removeFromCart, addToCart, increaseQty, decreaseQty } = useContext(CartContext);
+  const navigate=useNavigate();
   const total = cart.reduce((sum, item) => {
     if (!item || !item.price) return sum;
     return sum + item.price * (item.qty || 1);
@@ -52,6 +53,11 @@ const CartPage = () => {
         </div>
       ))}
       <h3>total: ₹{Number(total).toFixed(2)}</h3>
+
+      <button style={{backgroundColor:"#abaeaa", color:"#ffffff"}}
+      onClick={()=>navigate("/checkout")}>
+        Proceed to checkout
+        </button>
     </div>
   );
 };

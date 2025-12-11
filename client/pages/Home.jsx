@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
-import { CartContext } from "../Context/CartContext.jsx";
+import { CartContext } from "../context/CartContext.jsx";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
